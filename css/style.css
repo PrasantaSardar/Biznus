@@ -252,7 +252,13 @@ li a:hover{
  	color: var(--text-color-1);
  	background-color: transparent;
  	border-radius: 6px;
+	cursor: pointer;
  	border: 1px solid currentColor;
+	transition: .6s;
+ }
+ .ban-button:hover{
+	background-color: #fff;
+	color: #222;
  }
 
  /*start middle*/
